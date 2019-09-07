@@ -112,6 +112,30 @@ body {
     background-color: #000000ed;
 }
 
+.details-section .text {
+    margin: auto;
+    width: 750px;
+    height: 250px;
+}
+
+.details-section .text h6 {
+    text-align: center;
+    margin: 0;
+    padding: 100px 0 15px 0;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.details-section .text p {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
 .service-section {
     height: 600px;
     background-color: rgb(183, 139, 224);
