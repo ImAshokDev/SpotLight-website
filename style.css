@@ -136,7 +136,7 @@ body {
 }
 
 .service-section {
-    height: 770px;
+    height: 800px;
 }
 
 .service-section .service-head {
@@ -172,7 +172,7 @@ body {
     grid-column-gap: 20px;
     grid-row-gap: 50px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .service-block {
@@ -217,20 +217,19 @@ body {
 }
 
 .package-section {
-    height: 770px;
-    background-color: #949393;
+    height: 750px;
 }
 
 .package-head {
     margin: auto;
     width: 600px;
-    height: 230px;
+    height: 200px;
     text-align: center;
 }
 
 .package-head h2 {
     margin: 0;
-    padding: 100px 0 15px 0;
+    padding: 50px 0 15px 0;
     font-size: 40px;
     font-family: 'Livvic', sans-serif;
     font-weight: normal;
@@ -244,6 +243,78 @@ body {
     color: black;
     line-height: 1.5;
     opacity: 0.5;
+}
+
+.package-container {
+    margin: auto;
+    width: 1150px;
+    height: 400px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.package-block {
+    border-bottom: 1px solid rgb(231, 229, 229);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.package-container div:hover {
+    color: red;
+}
+
+.package-block div:hover {
+    color: red;
+}
+
+.package-block1 {
+    height: auto;
+    padding: 10px 0 0 0;
+}
+
+.package-block1 h4 {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: black;
+    opacity: 0.8;
+}
+
+.package-block1 p {
+    margin: 0;
+    text-align: justify;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: 2;
+    color: black;
+    opacity: 0.6;
+}
+
+.package-block2 div {
+    margin: 15px 25px;
+    float: right;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(238, 11, 227);
+}
+
+.package-block2 div p {
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    color: white;
+}
+
+.package-block2 div p span {
+    font-size: 15px;
 }
 
 .gallery-section {
