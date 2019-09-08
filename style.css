@@ -257,20 +257,24 @@ body {
 }
 
 .package-block {
-    border-bottom: 1px solid rgb(231, 229, 229);
+    border-bottom: 1px solid rgb(233, 230, 230);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.package-container div:hover {
-    color: red;
+.package-block:hover {
+    background-color: #f8f8f8;   
 }
 
-.package-block div:hover {
-    color: red;
+.package-block:hover h4 {
+    color: rgb(225, 0, 255);   
 }
 
-.package-block1 {
+.package-block:hover .package-block2 div {
+    background-color: rgb(225, 0, 255);
+}
+
+.package-block1{
     height: auto;
     padding: 10px 0 0 0;
 }
