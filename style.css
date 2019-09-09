@@ -72,17 +72,17 @@ body {
 
 .header-section .text h1 {
   margin: 0;
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   color: white;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .header-section .text p {
   margin: 30px;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   color: white;
 }
@@ -383,8 +383,114 @@ body {
 }
 
 .team-section {
-  height: 800px;
-  background-color: #c97eb6;
+  height: 650px;
+}
+
+.team-section .team-head {
+  margin: auto;
+  width: 600px;
+  height: 160px;
+  text-align: center;
+}
+
+.team-section .team-head h2 {
+  margin: 0;
+  padding: 30px 0 15px 0;
+  font-size: 40px;
+  font-family: "Livvic", sans-serif;
+  font-weight: normal;
+  color: black;
+}
+
+.team-section .team-head p {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Arimo", sans-serif;
+  color: black;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+.team-section .team-container {
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  height: 450px;
+  width: 1100px;
+  grid-column-gap: 10px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.team-section .team-container .team-block {
+  height: 100%;
+  width: 100%;
+}
+
+.team-section .team-container .team-block img {
+  margin: 15px 50px;
+  height: 170px;
+  width: 160px;
+}
+
+.team-section .team-container .team-block h5 {
+  margin: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Livvic", sans-serif;
+  font-weight: normal;
+  color: black;
+}
+
+.team-section .team-container .team-block h6 {
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  font-weight: normal;
+  color: #e40f56;
+  cursor: text;
+}
+
+.team-section .team-container .team-block p {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Livvic", sans-serif;
+  font-weight: normal;
+  color: black;
+  opacity: 0.5;
+}
+
+.team-section .team-container .team-block ul {
+  margin: 15px auto;
+  padding: 0;
+  width: 148px;
+  height: 60px;
+  text-align: center;
+}
+
+.team-section .team-container .team-block ul li {
+  margin: 10px 4px 0 7px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  list-style-type: none;
+  color: #d300d3;
+  float: left;
+  border: 2px solid #d300d3;
+}
+
+.team-section .team-container .team-block ul li i {
+  margin: 7.5px 0 0 0;
+  font-size: 15px;
+}
+
+.team-section .team-container .team-block ul li:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #00c3ff;
+  border: 2px solid #00c3ff;
 }
 
 .sliding-section {
