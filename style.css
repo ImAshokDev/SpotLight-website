@@ -59,7 +59,7 @@ body {
 }
 
 .header-section .head-container .head-block2 ul li:hover {
-  color: black;
+  color: #d60202;
   cursor: pointer;
 }
 
@@ -198,8 +198,8 @@ body {
 .service-section .service-container .service-block .item i {
   margin: -10px 0 0 0;
   padding: 0 20px 10px 0;
-  color: #949393;
-  background-color: #ffffff;
+  color: #d80606;
+  background-color: #fbfbfb;
   font-size: 45px;
 }
 
@@ -225,6 +225,7 @@ body {
 
 .package-section {
   height: 750px;
+  background: #464646;
 }
 
 .package-section .package-head {
@@ -240,16 +241,16 @@ body {
   font-size: 40px;
   font-family: "Livvic", sans-serif;
   font-weight: normal;
-  color: black;
+  color: white;
 }
 
 .package-section .package-head p {
   margin: 0;
   font-size: 15px;
   font-family: "Arimo", sans-serif;
-  color: black;
+  color: white;
   line-height: 1.5;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .package-section .package-container {
@@ -267,11 +268,12 @@ body {
 }
 
 .package-section .package-container .package-block {
-  border-bottom: 1px solid #e9e6e6;
+  border-bottom: 1px solid #353333;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  color: white;
 }
 
 .package-section .package-container .package-block .package-block1 {
@@ -281,23 +283,22 @@ body {
 
 .package-section .package-container .package-block .package-block1 h4 {
   margin: 0;
+  padding-left: 10px;
   text-align: left;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: black;
-  opacity: 0.8;
 }
 
 .package-section .package-container .package-block .package-block1 p {
   margin: 0;
+  padding: 10px;
   text-align: justify;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   line-height: 2;
-  color: black;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .package-section .package-container .package-block .package-block2 div {
@@ -305,7 +306,7 @@ body {
   float: right;
   width: 60px;
   height: 60px;
-  background-color: #ee0be3;
+  background-color: #690505;
 }
 
 .package-section .package-container .package-block .package-block2 div p {
@@ -314,7 +315,6 @@ body {
   text-align: center;
   font-size: 20px;
   font-family: "Arimo", sans-serif;
-  color: white;
 }
 
 .package-section .package-container .package-block .package-block2 div p span {
@@ -322,15 +322,20 @@ body {
 }
 
 .package-section .package-container .package-block:hover {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 
 .package-section .package-container .package-block:hover h4 {
-  color: #e100ff;
+  color: #d80606;
+}
+
+.package-section .package-container .package-block:hover .package-block1 p {
+  color: black;
 }
 
 .package-section .package-container .package-block:hover .package-block2 div {
-  background-color: #e100ff;
+  background-color: #d80606;
+  color: white;
 }
 
 .gallery-section {
@@ -448,7 +453,7 @@ body {
   text-align: center;
   font-family: "Livvic", sans-serif;
   font-weight: normal;
-  color: #d300d3;
+  color: #d80606;
   cursor: text;
 }
 
@@ -476,9 +481,9 @@ body {
   height: 32px;
   text-align: center;
   list-style-type: none;
-  color: #d300d3;
+  color: #d80606;
   float: left;
-  border: 2px solid #d300d3;
+  border: 2px solid #d80606;
 }
 
 .team-section .team-container .team-block ul li i {
@@ -489,8 +494,8 @@ body {
 .team-section .team-container .team-block ul li:hover {
   cursor: pointer;
   color: white;
-  background-color: #00c3ff;
-  border: 2px solid #00c3ff;
+  background-color: #d80606;
+  border: 2px solid #d80606;
 }
 
 .sliding-section {
@@ -613,7 +618,7 @@ body {
   margin: 0 320px;
   width: 120px;
   height: 50px;
-  background: #fb02d2;
+  background: #d80606;
   color: white;
   text-align: center;
   font-size: 14px;
@@ -621,8 +626,15 @@ body {
   font-family: "Arimo", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
-  border: 1px solid #fb02d2;
+  border: 1px solid #ff0000;
   border-radius: 2px;
+}
+
+.contact-section .form-block div button:hover {
+  color: #d80606;
+  cursor: pointer;
+  background: #cccccc;
+  border: 0;
 }
 
 .contact-section .form-block textarea {
@@ -675,6 +687,6 @@ body {
 
 .footer-section div {
   margin: auto;
-  width: 1000px;
+  width: 1200px;
 }
 /*# sourceMappingURL=style.css.map */
