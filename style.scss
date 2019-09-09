@@ -530,6 +530,9 @@ body {
 }
 
 .footer-section {
-    height: 150px;
-    background-color: rgb(89, 114, 167);
+    height: 300px;
+    div {
+        margin: auto;
+        width: 1000px;
+    }
 }

@@ -670,7 +670,11 @@ body {
 }
 
 .footer-section {
-  height: 150px;
-  background-color: #5972a7;
+  height: 300px;
+}
+
+.footer-section div {
+  margin: auto;
+  width: 1000px;
 }
 /*# sourceMappingURL=style.css.map */
