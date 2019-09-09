@@ -448,7 +448,7 @@ body {
   text-align: center;
   font-family: "Livvic", sans-serif;
   font-weight: normal;
-  color: #e40f56;
+  color: #d300d3;
   cursor: text;
 }
 
@@ -494,13 +494,179 @@ body {
 }
 
 .sliding-section {
-  height: 200px;
-  background-color: #9accd4;
+  height: 300px;
+  background-color: #000000ed;
+}
+
+.sliding-section div {
+  margin: auto;
+  width: 1000px;
+  height: 250px;
+}
+
+.sliding-section div p {
+  margin: 0;
+  padding: 70px 0 0 0;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Livvic", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+.sliding-section div h6 {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Livvic", sans-serif;
+  font-weight: normal;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .contact-section {
-  height: 200px;
-  background-color: #5db68d;
+  height: 780px;
+}
+
+.contact-section .contact-head {
+  margin: auto;
+  width: 600px;
+  height: 250px;
+  text-align: center;
+}
+
+.contact-section .contact-head h2 {
+  margin: 0;
+  padding: 120px 0 15px 0;
+  font-size: 40px;
+  font-family: "Livvic", sans-serif;
+  font-weight: normal;
+  color: black;
+}
+
+.contact-section .contact-head p {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Arimo", sans-serif;
+  color: black;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+.contact-section .form-block {
+  margin: auto;
+  height: 500px;
+  width: 800px;
+}
+
+.contact-section .form-block div {
+  height: 65px;
+  padding: 10px;
+}
+
+.contact-section .form-block div input {
+  margin: auto;
+  height: 50px;
+  width: 780px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
+.contact-section .form-block div input::-webkit-input-placeholder {
+  margin: 0;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-family: "Arimo", sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-section .form-block div input:-ms-input-placeholder {
+  margin: 0;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-family: "Arimo", sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-section .form-block div input::-ms-input-placeholder {
+  margin: 0;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-family: "Arimo", sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-section .form-block div input::placeholder {
+  margin: 0;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-family: "Arimo", sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-section .form-block div button {
+  margin: 0 320px;
+  width: 120px;
+  height: 50px;
+  background: #fb02d2;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Arimo", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #fb02d2;
+  border-radius: 2px;
+}
+
+.contact-section .form-block textarea {
+  margin: 10px;
+  height: 150px;
+  width: 780px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
+.contact-section .form-block textarea::-webkit-input-placeholder {
+  margin: 0;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-family: "Arimo", sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-section .form-block textarea:-ms-input-placeholder {
+  margin: 0;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-family: "Arimo", sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-section .form-block textarea::-ms-input-placeholder {
+  margin: 0;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-family: "Arimo", sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-section .form-block textarea::placeholder {
+  margin: 0;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-family: "Arimo", sans-serif;
+  color: black;
+  opacity: 0.5;
 }
 
 .footer-section {
